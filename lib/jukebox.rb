@@ -58,6 +58,7 @@ def run(songs)
       play(songs)
       puts "Please enter a command:"
       user_input = gets.strip
+    end
   end
   exit_jukebox
 end
