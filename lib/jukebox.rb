@@ -45,7 +45,7 @@ def run(songs)
   puts "Please enter a command:"
   user_input = gets.strip
   while user_input.downcase != "exit"
-    case user_input
+    if user_input == "help"
     when "help"
       help
       puts "Please enter a command:"
