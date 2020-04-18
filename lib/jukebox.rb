@@ -46,11 +46,10 @@ def run(songs)
   user_input = gets.strip
   while user_input.downcase != "exit"
     if user_input == "help"
-    when "help"
       help
       puts "Please enter a command:"
       user_input = gets.strip
-    when "list"
+    elsif user_input == "list"
       list(songs)
       puts "Please enter a command:"
       user_input = gets.strip
